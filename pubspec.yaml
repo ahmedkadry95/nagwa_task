@@ -47,10 +47,10 @@ flutter:
 
 
 flutter_native_splash:
-  color: "#e2f1ec"
+  color: "#1070C8"
   image: assets/images/books.png
   android_12:
     image: assets/images/books.png
-    color: "#e2f1ec"
-    icon_background_color: "#e2f1ec"
+    color:  "#1070C8"
+    icon_background_color:  "#1070C8"
   ios: true
