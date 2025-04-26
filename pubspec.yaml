@@ -22,6 +22,7 @@ dependencies:
   cached_network_image: ^3.4.1
   readmore: ^3.0.0
   flutter_staggered_grid_view: ^0.7.0
+  flutter_launcher_icons: ^0.14.3
 
 dev_dependencies:
   flutter_test:
@@ -45,12 +46,19 @@ flutter:
         - asset: assets/font/Nunito/static/Nunito-ExtraLight.ttf
         - asset: assets/font/Nunito/static/Nunito-Light.ttf
 
-
 flutter_native_splash:
-  color: "#1070C8"
-  image: assets/images/books.png
+  color: "#FFFFFF"
+  image: assets/images/logo.png
   android_12:
-    image: assets/images/books.png
-    color:  "#1070C8"
-    icon_background_color:  "#1070C8"
+    color: "#FFFFFF"
+    image: assets/images/logo.png
+    icon_background_color: "#FFFFFF"
+    image_dark: assets/images/logo.png
   ios: true
+  android_gravity: center
+  fullscreen: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
